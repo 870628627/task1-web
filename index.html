@@ -12,104 +12,120 @@
             color: #333;
         }
 
+        /* 头部样式 */
         header {
-            text-align: center;
-            padding: 20px;
+            text-align: center; /* 内容居中对齐 */
+            padding: 20px; /* 内边距为 20px */
         }
 
         .logo {
-            width: 500px; /* 将 logo 的宽度设置为 500px */
+            width: 500px; /* 设置 logo 的宽度为 500px */
             height: auto; /* 保持 logo 的纵横比 */
-            vertical-align: middle;
+            vertical-align: middle; /* 垂直居中对齐 */
         }
 
+        /* 主标题样式 */
         h1 {
             display: inline-block;
-            font-size: 24px;
+            font-size: 24px; /* 字体大小为 24px */
             margin: 0;
             vertical-align: middle;
         }
 
+        /* 每个部分标题的样式 */
         .section-title {
-            text-align: center;
-            color: red;
-            font-size: 20px;
-            font-weight: bold;
+            text-align: center; /* 居中对齐 */
+            color: red; /* 字体颜色为红色 */
+            font-size: 20px; /* 字体大小为 20px */
+            font-weight: bold; /* 加粗字体 */
         }
 
+        /* 图片样式 */
         .artwork, .gallery-image {
             display: block;
-            margin: 0 auto;
-            max-width: 300px;
-            height: auto;
-            padding: 10px;
+            margin: 0 auto; /* 图片居中 */
+            max-width: 300px; /* 最大宽度设置为 300px */
+            height: auto; /* 保持图片的纵横比 */
+            padding: 10px; /* 图片的内边距为 10px */
         }
 
+        /* 每个 section 的样式 */
         section {
-            margin: 20px auto;
-            width: 80%;
-            text-align: center;
+            margin: 20px auto; /* 设置上下外边距为 20px，居中 */
+            width: 80%; /* section 的宽度占父容器的 80% */
+            text-align: center; /* 内容居中对齐 */
         }
 
+        /* 段落文本样式 */
         p {
-            font-size: 14px;
-            color: #666;
+            font-size: 14px; /* 字体大小为 14px */
+            color: #666; /* 字体颜色为灰色 */
         }
+
         /* 新增 .text-box 样式，设置背景色和内边距 */
         .text-box {
-            background-color: #f0f0f0; /* 浅灰色背景 */
+            background-color: #f0f0f0; /* 设置浅灰色背景 */
             max-width: 300px; /* 设置与图片一致的宽度 */
-            padding: 10px; /* 内边距 */
-
-            margin: 10px auto; /* 上下居中 */
-            text-align: left; /* 可以调整文本对齐方式 */
-
+            padding: 10px; /* 内边距为 10px */
+            margin: 10px auto; /* 设置上下外边距，并居中对齐 */
+            text-align: left; /* 文本左对齐 */
         }
+
+        /* Rent Gallery 部分的背景颜色 */
         .rent-gallery {
-            background-color: #e3f2fd;
-            padding: 20px;
+            background-color: #e3f2fd; /* 设置背景颜色为浅蓝色 */
+            padding: 20px; /* 内边距为 20px */
         }
 
+        /* 页脚样式 */
         footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
+            background-color: #333; /* 设置背景颜色为深灰色 */
+            color: white; /* 字体颜色为白色 */
+            text-align: center; /* 内容居中对齐 */
+            padding: 20px; /* 内边距为 20px */
+            font-size: 14px; /* 字体大小为 14px */
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="logo.png" alt="Oerlikon Gallery Logo" class="logo">
+        <img src="logo.png" alt="Oerlikon Gallery Logo" class="logo"> <!-- logo 图片 -->
 
     </header>
 
+    <!-- Featured Artist 部分 -->
     <section class="featured-artist">
-        <h2 class="section-title">Featured Artist</h2>
-        <img src="featured.jpg" alt="Featured Artwork" class="artwork">
+        <h2 class="section-title">Featured Artist</h2> <!-- 部分标题 -->
+        <img src="featured.jpg" alt="Featured Artwork" class="artwork"> <!-- 艺术品图片 -->
         
+        <!-- 包含文字的浅灰色方框 -->
         <div class="text-box">
-        <p>Marie-Claire LeBlanc is our current artist in residence.</p>
+            <p>Marie-Claire LeBlanc is our current artist in residence.</p> <!-- 文字内容 -->
+        </div>
     </section>
 
+    <!-- Fall Exhibition 部分 -->
     <section class="fall-exhibition">
-        <h2 class="section-title">Fall Exhibition</h2>
-        <img src="exhibition.jpg" alt="Fall Exhibition Artwork" class="artwork">
+        <h2 class="section-title">Fall Exhibition</h2> <!-- 部分标题 -->
+        <img src="exhibition.jpg" alt="Fall Exhibition Artwork" class="artwork"> <!-- 艺术品图片 -->
      
+        <!-- 包含文字的浅灰色方框 -->
         <div class="text-box">
-        <p>Preview our fall exhibition, «Oerlikon by the Sea».</p>
+            <p>Preview our fall exhibition, «Oerlikon by the Sea».</p> <!-- 文字内容 -->
+        </div>
     </section>
 
+    <!-- Rent the Gallery 部分 -->
     <section class="rent-gallery">
-        <h2 class="section-title">Rent the Gallery</h2>
-        <img src="gallery.jpg" alt="Gallery Space" class="gallery-image">
-        <p><a href="#">Contact us for more information</a></p>
+        <h2 class="section-title">Rent the Gallery</h2> <!-- 部分标题 -->
+        <img src="gallery.jpg" alt="Gallery Space" class="gallery-image"> <!-- 展览空间图片 -->
+        <p><a href="#">Contact us for more information</a></p> <!-- 文字内容及链接 -->
     </section>
-
     <footer>
-        <p>Oerlikon Gallery of Contemporary Art</p>
-        <p>Andreasstrasse 15, 8050 Zurich, Switzerland</p>
+        <img src="logo.png" alt="Oerlikon Gallery Logo" class="logo">
+        <p>Andreasstrasse 15</p>
+        <p>8050 Zurich</p>
+        <p>Switzerland</p>
     </footer>
 </body>
 </html>
