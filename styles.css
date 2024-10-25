@@ -1,0 +1,90 @@
+/* CSS 外部样式 */
+
+/* 页面基础样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* 头部样式 */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* 主标题样式 */
+h1 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+/* 每个部分标题的样式 */
+.section-title {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 图片样式 */
+.artwork, .gallery-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+/* 每个 section 的样式 */
+section {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+/* 段落文本样式 */
+p {
+    font-size: 14px;
+    color: #000000;
+}
+
+/* 新增 .text-box 样式，设置背景色和内边距 */
+.text-box {
+    background-color: #f0f0f0;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
+}
+
+/* Rent Gallery 部分的背景颜色 */
+.rent-gallery {
+    background-color: #e3f2fd;
+    padding: 20px;
+}
+
+/* 页脚样式 */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* 页脚 logo 大小 */
+.footer-logo {
+    width: 250px;
+    height: auto;
+    vertical-align: middle;
+    filter: invert(1);
+}
