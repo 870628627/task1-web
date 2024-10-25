@@ -3,105 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        /* CSS 内部样式 */
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
-
-        /* 头部样式 */
-        header {
-            text-align: center; /* 内容居中对齐 */
-            padding: 20px; /* 内边距为 20px */
-        }
-
-        .logo {
-            width: 500px; /* 设置 logo 的宽度为 500px */
-            height: auto; /* 保持 logo 的纵横比 */
-            vertical-align: middle; /* 垂直居中对齐 */
-        }
-
-        /* 主标题样式 */
-        h1 {
-            display: inline-block;
-            font-size: 24px; /* 字体大小为 24px */
-            margin: 0;
-            vertical-align: middle;
-        }
-
-        /* 每个部分标题的样式 */
-        .section-title {
-            text-align: center; /* 居中对齐 */
-            color: red; /* 字体颜色为红色 */
-            font-size: 20px; /* 字体大小为 20px */
-            font-weight: bold; /* 加粗字体 */
-        }
-
-        /* 图片样式 */
-        .artwork, .gallery-image {
-            display: block;
-            margin: 0 auto; /* 图片居中 */
-            max-width: 300px; /* 最大宽度设置为 300px */
-            height: auto; /* 保持图片的纵横比 */
-            padding: 10px; /* 图片的内边距为 10px */
-        }
-
-        /* 每个 section 的样式 */
-        section {
-            margin: 20px auto; /* 设置上下外边距为 20px，居中 */
-            width: 80%; /* section 的宽度占父容器的 80% */
-            text-align: center; /* 内容居中对齐 */
-        }
-
-        /* 段落文本样式 */
-        p {
-
-            font-size: 14px; /* 字体大小为 14px */
-            color: #000000; /* 字体颜色为黑色 */
-        }
-
-
-        
-
-        /* 新增 .text-box 样式，设置背景色和内边距 */
-        .text-box {
-            background-color: #f0f0f0; /* 设置浅灰色背景 */
-            max-width: 300px; /* 设置与图片一致的宽度 */
-            padding: 10px; /* 内边距为 10px */
-            margin: 10px auto; /* 设置上下外边距，并居中对齐 */
-            text-align: left; /* 文本左对齐 */
-        }
-
-        /* Rent Gallery 部分的背景颜色 */
-        .rent-gallery {
-            background-color: #e3f2fd; /* 设置背景颜色为浅蓝色 */
-            padding: 20px; /* 内边距为 20px */
-        }
-
-        /* 页脚样式 */
-        footer {
-            background-color: #333; /* 设置背景颜色为深灰色 */
-            color: white; /* 字体颜色为白色 */
-            text-align: center; /* 内容居中对齐 */
-            padding: 20px; /* 内边距为 20px */
-            font-size: 14px; /* 字体大小为 14px */
-        }
-        /* 页脚 logo 大小 */
-        .footer-logo {
-            width: 250px; /* 设置页脚 logo 的宽度为 200px */
-            height: auto; /* 保持 logo 的纵横比 */
-            vertical-align: middle; /* 垂直居中对齐 */
-            filter: invert(1); /* 完全反转颜色 */
-        }
-    </style>
+    <title>Oerlikon Gallery of Contemporary Art</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入外部 CSS 文件 -->
 </head>
 <body>
     <header>
         <img src="logo.png" alt="Oerlikon Gallery Logo" class="logo"> <!-- logo 图片 -->
-
     </header>
 
     <!-- Featured Artist 部分 -->
@@ -111,7 +18,9 @@
         
         <!-- 包含文字的浅灰色方框 -->
         <div class="text-box">
-            <p style="font-family: 'Arial', sans-serif;font-style: italic;font-weight: 700">Marie-Claire LeBlanc is our current artist in residence.</p> <!-- 文字内容 -->
+            <p style="font-family: 'Arial', sans-serif; font-style: italic; font-weight: 700;">
+                Marie-Claire LeBlanc is our current artist in residence.
+            </p> <!-- 文字内容 -->
         </div>
     </section>
 
@@ -122,7 +31,9 @@
      
         <!-- 包含文字的浅灰色方框 -->
         <div class="text-box">
-            <p style="font-family: 'Arial', sans-serif;font-style: italic;font-weight: 700">Preview our fall exhibition, «Oerlikon by the Sea».</p> <!-- 文字内容 -->
+            <p style="font-family: 'Arial', sans-serif; font-style: italic; font-weight: 700;">
+                Preview our fall exhibition, «Oerlikon by the Sea».
+            </p> <!-- 文字内容 -->
         </div>
     </section>
 
@@ -132,6 +43,8 @@
         <img src="gallery.jpg" alt="Gallery Space" class="gallery-image"> <!-- 展览空间图片 -->
         <p><a href="#">Contact us for more information</a></p> <!-- 文字内容及链接 -->
     </section>
+
+    <!-- 页脚 -->
     <footer>
         <img src="logo.png" alt="Oerlikon Gallery Logo" class="footer-logo">
         <p style="color: #FFFFFF">Andreasstrasse 15</p>
@@ -140,3 +53,4 @@
     </footer>
 </body>
 </html>
+
