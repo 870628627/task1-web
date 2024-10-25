@@ -54,7 +54,14 @@
             font-size: 14px;
             color: #666;
         }
-
+        /* 新增 .text-box 样式，设置背景色和内边距 */
+        .text-box {
+            background-color: #f0f0f0; /* 浅灰色背景 */
+            border: 1px solid #ddd; /* 灰色边框 */
+            padding: 10px; /* 内边距 */
+            margin: 10px 0; /* 上下的外边距 */
+            border-radius: 5px; /* 边框圆角 */
+        }
         .rent-gallery {
             background-color: #e3f2fd;
             padding: 20px;
@@ -78,12 +85,16 @@
     <section class="featured-artist">
         <h2 class="section-title">Featured Artist</h2>
         <img src="featured.jpg" alt="Featured Artwork" class="artwork">
+        /* 添加浅灰色方框 */
+        <div class="text-box">
         <p>Marie-Claire LeBlanc is our current artist in residence.</p>
     </section>
 
     <section class="fall-exhibition">
         <h2 class="section-title">Fall Exhibition</h2>
         <img src="exhibition.jpg" alt="Fall Exhibition Artwork" class="artwork">
+        /* 添加浅灰色方框 */
+        <div class="text-box">
         <p>Preview our fall exhibition, «Oerlikon by the Sea».</p>
     </section>
 
