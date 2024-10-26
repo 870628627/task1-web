@@ -46,7 +46,7 @@ h1 {
 
 /* 每个 section 的样式 */
 section {
-    margin: 40px auto;
+    margin: 80px auto;
     width: 80%;
     text-align: center;
 }
@@ -73,6 +73,7 @@ p {
     width: 100vw; /* 设置宽度为视口宽度，拉满页面 */
     margin-left: calc(-50vw + 50%); /* 将内容向左偏移以左右拉满 */
     box-sizing: border-box; /* 确保 padding 不影响整体宽度 */
+    margin-bottom: 0; /* 确保和页脚之间没有间距 */
 }
 
 /* 页脚样式 */
