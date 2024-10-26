@@ -68,8 +68,11 @@ p {
 
 /* Rent Gallery 部分的背景颜色 */
 .rent-gallery {
-    background-color: #e3f2fd;
-    padding: 0px;
+    background-color: #e3f2fd; /* 设置背景颜色为浅蓝色 */
+    padding: 20px; /* 上下内边距 */
+    width: 100vw; /* 设置宽度为视口宽度，拉满页面 */
+    margin-left: calc(-50vw + 50%); /* 将内容向左偏移以左右拉满 */
+    box-sizing: border-box; /* 确保 padding 不影响整体宽度 */
 }
 
 /* 页脚样式 */
