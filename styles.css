@@ -46,7 +46,7 @@ h1 {
 
 /* 每个 section 的样式 */
 section {
-    margin: 20px auto;
+    margin: 40px auto;
     width: 80%;
     text-align: center;
 }
@@ -69,7 +69,7 @@ p {
 /* Rent Gallery 部分的背景颜色 */
 .rent-gallery {
     background-color: #e3f2fd;
-    padding: 20px;
+    padding: 0px;
 }
 
 /* 页脚样式 */
