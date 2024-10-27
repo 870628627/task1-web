@@ -23,22 +23,13 @@ header {
     vertical-align: middle;
 }
 
-/* 主标题样式 */
-h1 {
-    font-family: monospace; /* 设置标题为等宽字体 */
-    display: inline-block;
-    font-size: 24px;
-    margin: 0;
-    vertical-align: middle;
-}
-
 /* 每个部分标题的样式 */
 .section-title {
-    font-family: monospace; /* 设置标题为等宽字体 */
-    text-align: center;
-    color: red;
+    font-family: monospace; /* 设置部分标题为等宽字体 */
     font-size: 20px;
-    font-weight: 900;
+    color: red;
+    font-weight: 900; /* 设置最大加粗 */
+    margin: 20px 0;
 }
 
 /* 图片样式 */
