@@ -22,7 +22,10 @@ header {
     height: auto;
     vertical-align: middle;
 }
-
+/* 主标题和部分标题样式 */
+h1, .section-title {
+    font-family: monospace; /* 设置标题为等宽字体 */
+}
 /* 主标题样式 */
 h1 {
     display: inline-block;
