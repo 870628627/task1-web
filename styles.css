@@ -61,6 +61,7 @@ section {
 p {
     font-size: 14px;
     color: #000000;
+    font-weight: 600;
 }
 
 /* 新增 .text-box 样式，设置背景色和内边距 */
