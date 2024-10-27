@@ -26,7 +26,6 @@ header {
 /* 主标题样式 */
 h1 {
     font-family: monospace; /* 设置标题为等宽字体 */
-
     display: inline-block;
     font-size: 24px;
     margin: 0;
@@ -39,7 +38,7 @@ h1 {
     text-align: center;
     color: red;
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 1000;
 }
 
 /* 图片样式 */
