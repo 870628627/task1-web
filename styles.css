@@ -1,6 +1,6 @@
-/* CSS 外部样式 */
+/* CSS  */
 
-/* 页面基础样式 */
+/* Basic page style */
 body {
     margin: 0;
     font-family: sans-serif;
@@ -11,7 +11,7 @@ body {
     max-width: 768px;
     margin: auto;
 }
-/* 头部样式 */
+/* Head */
 header {
     text-align: center;
     padding: 20px;
@@ -23,16 +23,16 @@ header {
     vertical-align: middle;
 }
 
-/* 每个部分标题的样式 */
+/* section-title */
 .section-title {
-    font-family: monospace; /* 设置部分标题为等宽字体 */
+    font-family: monospace; 
     font-size: 20px;
     color: red;
-    font-weight: 900; /* 设置最大加粗 */
+    font-weight: 900; 
     margin: 20px 0;
 }
 
-/* 图片样式 */
+/* img */
 .artwork, .gallery-image {
     display: block;
     margin: 0 auto;
@@ -41,20 +41,20 @@ header {
     padding: 10px;
 }
 
-/* 每个 section 的样式 */
+/*  section  */
 section {
     margin: 100px auto;
     width: 80%;
     text-align: center;
 }
 
-/* 段落文本样式 */
+
 p {
     font-size: 14px;
     color: #000000;
 }
 
-/* 新增 .text-box 样式，设置背景色和内边距 */
+/* Added .text-box style  */
 .text-box {
     background-color: #f0f0f0;
     max-width: 290px;
@@ -63,27 +63,27 @@ p {
     text-align: left;
 }
 
-/* Rent Gallery 部分的背景颜色 */
+/* Rent Gallery  */
 .rent-gallery {
-    background-color: #e3f2fd; /* 设置背景颜色为浅蓝色 */
-    padding: 20px; /* 上下内边距 */
-    width: 100vw; /* 设置宽度为视口宽度，拉满页面 */
-    margin-left: calc(-50vw + 50%); /* 将内容向左偏移以左右拉满 */
-    box-sizing: border-box; /* 确保 padding 不影响整体宽度 */
-    margin-bottom: 0; /* 确保和页脚之间没有间距 */
+    background-color: #e3f2fd; /* Set background color to light blue */
+    padding: 20px; 
+    width: 100vw; /* Fill the page */
+    margin-left: calc(-50vw + 50%); /* Offset content to the left to fill both sides */
+    box-sizing: border-box; /* Make sure the padding does not affect the overall width */
+    margin-bottom: 0; /* Make sure there is no space between */
 }
 
-/* 页脚样式 */
+/* footer */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px;
     font-size: 14px;
-    margin-top: 0; /* 确保与 .rent-gallery 紧密相连 */
+    margin-top: 0; /* Make sure it's tightly linked to .rent-gallery */
 }
 
-/* 页脚 logo 大小 */
+/* footer-logo */
 .footer-logo {
     width: 250px;
     height: auto;
